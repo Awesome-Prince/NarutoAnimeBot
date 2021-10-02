@@ -1,3 +1,3 @@
-worker: python3 -m EmiliaAnimeBot
-web: python3 -m EmiliaAnimeBot
+worker: python3 -m NarutoAnimeBot
+web: python3 -m NarutoAnimeBot
 ps:scale worker=1
