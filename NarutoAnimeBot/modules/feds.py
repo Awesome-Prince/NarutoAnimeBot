@@ -7,16 +7,16 @@ import uuid
 from io import BytesIO
 import html
 
-import EmiliaAnimeBot.modules.sql.feds_sql as sql
-from EmiliaAnimeBot import (EVENT_LOGS, LOGGER, OWNER_ID, DRAGONS, TIGERS, WOLVES,
+import NarutoAnimeBot.modules.sql.feds_sql as sql
+from NarutoAnimeBot import (EVENT_LOGS, LOGGER, OWNER_ID, DRAGONS, TIGERS, WOLVES,
                           dispatcher)
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot.modules.helper_funcs.alternate import send_message
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import is_user_admin
-from EmiliaAnimeBot.modules.helper_funcs.extraction import (extract_unt_fedban,
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot.modules.helper_funcs.alternate import send_message
+from NarutoAnimeBot.modules.helper_funcs.chat_status import is_user_admin
+from NarutoAnimeBot.modules.helper_funcs.extraction import (extract_unt_fedban,
                                                           extract_user,
                                                           extract_user_fban)
-from EmiliaAnimeBot.modules.helper_funcs.string_handling import markdown_parser
+from NarutoAnimeBot.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, MessageEntity,
                       ParseMode, Update)
 from telegram.error import BadRequest, TelegramError, Unauthorized
