@@ -1,15 +1,15 @@
 {
-      "name": "Valt Aoi",
+      "name": "Naruto",
       "description": "group management robot.",
-      "logo": "https://telegra.ph/file/a67c2340316ee08944927.jpg", 
+      "logo": "https://telegra.ph/file/ca937d5d95d4cd1295202.jpg", 
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Valt"
+         "NAruto"
       ],   
-   "repository": "https://github.com/Rohithbotusers/Valt-Aoi",
+   "repository": "https://github.com/valtaoibestblader/NarutoAnimeBot",
    "addons": [
       {
          "options": {
