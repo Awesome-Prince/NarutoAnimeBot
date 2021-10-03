@@ -1,8 +1,8 @@
 import time
 
-from EmiliaAnimeBot import dispatcher
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin
+from NarutoAnimeBot import dispatcher
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot.modules.helper_funcs.chat_status import user_admin
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
