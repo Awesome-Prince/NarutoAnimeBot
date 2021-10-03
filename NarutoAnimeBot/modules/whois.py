@@ -4,9 +4,9 @@ from pyrogram import filters
 from pyrogram.types import User, Message
 from pyrogram.raw import functions
 from pyrogram.errors import PeerIdInvalid
-from EmiliaAnimeBot import telethn
-from EmiliaAnimeBot import dispatcher
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot import telethn
+from NarutoAnimeBot import dispatcher
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
 
 
 def ReplyCheck(message: Message):
