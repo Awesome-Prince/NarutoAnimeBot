@@ -2,14 +2,14 @@ import re, ast
 from io import BytesIO
 from typing import Optional
 
-import EmiliaAnimeBot.modules.sql.notes_sql as sql
-from EmiliaAnimeBot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin, connection_status
-from EmiliaAnimeBot.modules.helper_funcs.misc import (build_keyboard,
+import NarutoAnimeBot.modules.sql.notes_sql as sql
+from NarutoAnimeBot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot.modules.helper_funcs.chat_status import user_admin, connection_status
+from NarutoAnimeBot.modules.helper_funcs.misc import (build_keyboard,
                                                     revert_buttons)
-from EmiliaAnimeBot.modules.helper_funcs.msg_types import get_note_type
-from EmiliaAnimeBot.modules.helper_funcs.string_handling import escape_invalid_curly_brackets
+from NarutoAnimeBot.modules.helper_funcs.msg_types import get_note_type
+from NarutoAnimeBot.modules.helper_funcs.string_handling import escape_invalid_curly_brackets
 from telegram import (MAX_MESSAGE_LENGTH, InlineKeyboardMarkup, Message,
                       ParseMode, Update, InlineKeyboardButton)
 from telegram.error import BadRequest
