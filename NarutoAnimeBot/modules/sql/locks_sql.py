@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from EmiliaAnimeBot.modules.sql import SESSION, BASE
+from NarutoAnimeBot.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):
