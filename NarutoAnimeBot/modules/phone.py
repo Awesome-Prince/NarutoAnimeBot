@@ -3,8 +3,8 @@ import json
 import requests
 from telethon import types
 
-from EmiliaAnimeBot.events import register
-from EmiliaAnimeBot import telethn as client
+from NarutoAnimeBot.events import register
+from NarutoAnimeBot import telethn as client
 from telethon.tl import functions
 
 
