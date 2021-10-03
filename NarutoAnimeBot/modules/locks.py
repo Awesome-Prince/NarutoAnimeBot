@@ -9,20 +9,20 @@ from telegram.utils.helpers import mention_html
 
 from alphabet_detector import AlphabetDetector
 
-import EmiliaAnimeBot.modules.sql.locks_sql as sql
-from EmiliaAnimeBot import dispatcher, DRAGONS, LOGGER
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import (
+import NarutoAnimeBot.modules.sql.locks_sql as sql
+from NarutoAnimeBot import dispatcher, DRAGONS, LOGGER
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot.modules.helper_funcs.chat_status import (
     can_delete,
     is_user_admin,
     user_not_admin,
     is_bot_admin,
     user_admin,
 )
-from EmiliaAnimeBot.modules.log_channel import loggable
-from EmiliaAnimeBot.modules.connection import connected
-from EmiliaAnimeBot.modules.sql.approve_sql import is_approved
-from EmiliaAnimeBot.modules.helper_funcs.alternate import send_message, typing_action
+from NarutoAnimeBot.modules.log_channel import loggable
+from NarutoAnimeBot.modules.connection import connected
+from NarutoAnimeBot.modules.sql.approve_sql import is_approved
+from NarutoAnimeBot.modules.helper_funcs.alternate import send_message, typing_action
 
 ad = AlphabetDetector()
 
