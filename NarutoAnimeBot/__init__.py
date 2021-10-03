@@ -100,7 +100,7 @@ if ENV:
             "Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from EmiliaAnimeBot.config import Development as Config
+    from NarutoAnimeBot.config import Development as Config
     TOKEN = Config.TOKEN
 
     try:
@@ -178,10 +178,10 @@ else:
     sw = spamwatch.Client(SPAMWATCH_API)
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("emilia", API_ID, API_HASH)
-pgram = Client("EmiPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+telethn = TelegramClient("Naruto", API_ID, API_HASH)
+pgram = Client("NaruPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 mongo_client = MongoClient(MONGO_DB_URI)
-db = mongo_client.EmiliaAnimeBot
+db = mongo_client.NarutoAnimeBot
 dispatcher = updater.dispatcher
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
@@ -191,7 +191,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from EmiliaAnimeBot.modules.helper_funcs.handlers import (CustomCommandHandler,
+from NarutoAnimeBot.modules.helper_funcs.handlers import (CustomCommandHandler,
                                                         CustomMessageHandler,
                                                         CustomRegexHandler)
 
