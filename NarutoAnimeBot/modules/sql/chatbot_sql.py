@@ -1,6 +1,6 @@
 import threading
 
-from EmiliaAnimeBot.modules.sql import BASE, SESSION
+from NarutoAnimeBot.modules.sql import BASE, SESSION
 from sqlalchemy import Column, String
 
 
