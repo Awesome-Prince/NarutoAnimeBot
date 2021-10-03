@@ -15,25 +15,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from EmiliaAnimeBot import dispatcher, LOGGER, DRAGONS
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot.modules.helper_funcs.handlers import MessageHandlerChecker
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin
-from EmiliaAnimeBot.modules.helper_funcs.extraction import extract_text
-from EmiliaAnimeBot.modules.helper_funcs.filters import CustomFilters
-from EmiliaAnimeBot.modules.helper_funcs.misc import build_keyboard_parser
-from EmiliaAnimeBot.modules.helper_funcs.msg_types import get_filter_type
-from EmiliaAnimeBot.modules.helper_funcs.string_handling import (
+from NarutoAnimeBot import dispatcher, LOGGER, DRAGONS
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot.modules.helper_funcs.handlers import MessageHandlerChecker
+from NarutoAnimeBot.modules.helper_funcs.chat_status import user_admin
+from NarutoAnimeBot.modules.helper_funcs.extraction import extract_text
+from NarutoAnimeBot.modules.helper_funcs.filters import CustomFilters
+from NarutoAnimeBot.modules.helper_funcs.misc import build_keyboard_parser
+from NarutoAnimeBot.modules.helper_funcs.msg_types import get_filter_type
+from NarutoAnimeBot.modules.helper_funcs.string_handling import (
     split_quotes,
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
 )
-from EmiliaAnimeBot.modules.sql import cust_filters_sql as sql
+from NarutoAnimeBot.modules.sql import cust_filters_sql as sql
 
-from EmiliaAnimeBot.modules.connection import connected
+from NarutoAnimeBot.modules.connection import connected
 
-from EmiliaAnimeBot.modules.helper_funcs.alternate import send_message, typing_action
+from NarutoAnimeBot.modules.helper_funcs.alternate import send_message, typing_action
 
 HANDLER_GROUP = 10
 
