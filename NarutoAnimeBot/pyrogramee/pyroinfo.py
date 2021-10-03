@@ -1,5 +1,5 @@
 from pyrogram import Client
-from EmiliaAnimeBot import pgram as bottie
+from NarutoAnimeBot import pgram as bottie
 
 emilia = bottie.get_me()
 
