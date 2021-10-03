@@ -1,9 +1,9 @@
 import os
 from time import sleep
 
-from EmiliaAnimeBot import OWNER_ID, dispatcher
-from EmiliaAnimeBot.modules.helper_funcs.extraction import extract_user
-from EmiliaAnimeBot.modules.sql.users_sql import get_user_com_chats
+from NarutoAnimeBot import OWNER_ID, dispatcher
+from NarutoAnimeBot.modules.helper_funcs.extraction import extract_user
+from NarutoAnimeBot.modules.sql.users_sql import get_user_com_chats
 from telegram import Update
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, Filters
