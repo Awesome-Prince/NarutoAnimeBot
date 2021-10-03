@@ -1,12 +1,12 @@
 # Module to blacklist users and prevent them from using commands by @TheRealPhoenix
 import html
-import EmiliaAnimeBot.modules.sql.blacklistusers_sql as sql
-from EmiliaAnimeBot import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
+import NarutoAnimeBot.modules.sql.blacklistusers_sql as sql
+from NarutoAnimeBot import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
                           dispatcher)
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import dev_plus
-from EmiliaAnimeBot.modules.helper_funcs.extraction import (extract_user,
+from NarutoAnimeBot.modules.helper_funcs.chat_status import dev_plus
+from NarutoAnimeBot.modules.helper_funcs.extraction import (extract_user,
                                                           extract_user_and_text)
-from EmiliaAnimeBot.modules.log_channel import gloggable
+from NarutoAnimeBot.modules.log_channel import gloggable
 from telegram import ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
