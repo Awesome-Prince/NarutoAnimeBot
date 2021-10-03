@@ -7,10 +7,10 @@ from telegram.ext import Filters, CommandHandler
 from telegram.ext.dispatcher import run_async, CallbackContext
 
 import random
-import EmiliaAnimeBot.modules.sql.users_sql as sql
-from EmiliaAnimeBot.modules.helper_funcs.filters import CustomFilters
-from EmiliaAnimeBot import dispatcher, OWNER_ID, LOGGER
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
+import NarutoAnimeBot.modules.sql.users_sql as sql
+from NarutoAnimeBot.modules.helper_funcs.filters import CustomFilters
+from NarutoAnimeBot import dispatcher, OWNER_ID, LOGGER
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
 USERS_GROUP = 4
 
 
