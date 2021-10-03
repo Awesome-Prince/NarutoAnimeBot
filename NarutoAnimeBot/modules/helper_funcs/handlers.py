@@ -1,6 +1,6 @@
-import EmiliaAnimeBot.modules.sql.blacklistusers_sql as sql
-from EmiliaAnimeBot import ALLOW_EXCL
-from EmiliaAnimeBot import (DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES)
+import NarutoAnimeBot.modules.sql.blacklistusers_sql as sql
+from NarutoAnimeBot import ALLOW_EXCL
+from NarutoAnimeBot import (DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES)
 
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, RegexHandler, Filters
