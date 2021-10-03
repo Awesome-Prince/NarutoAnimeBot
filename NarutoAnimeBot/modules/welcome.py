@@ -7,7 +7,7 @@ from functools import partial
 import NarutoAnimeBot.modules.sql.welcome_sql as sql
 from NarutoAnimeBot import (DEV_USERS, LOGGER, OWNER_ID, DRAGONS, DEMONS, TIGERS,
                           WOLVES, sw, dispatcher, JOIN_LOGGER)
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import (
+from NarutoAnimeBot.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
