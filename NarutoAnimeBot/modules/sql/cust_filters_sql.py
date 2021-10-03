@@ -3,7 +3,7 @@ import threading
 from sqlalchemy import Column, String, UnicodeText, Boolean, Integer, distinct, func
 
 from NarutoAnimeBot.modules.helper_funcs.msg_types import Types
-from NarutoAnimeBotl.modules.sql import BASE, SESSION
+from NarutoAnimeBot.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):
