@@ -3,22 +3,22 @@ import re
 from typing import Optional
 
 import telegram
-from EmiliaAnimeBot import BAN_STICKER, TIGERS, WOLVES, dispatcher
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import (bot_admin,
+from NarutoAnimeBot import BAN_STICKER, TIGERS, WOLVES, dispatcher
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot.modules.helper_funcs.chat_status import (bot_admin,
                                                            can_restrict,
                                                            is_user_admin,
                                                            user_admin,
                                                            user_admin_no_reply)
-from EmiliaAnimeBot.modules.helper_funcs.extraction import (extract_text,
+from NarutoAnimeBot.modules.helper_funcs.extraction import (extract_text,
                                                           extract_user,
                                                           extract_user_and_text)
-from EmiliaAnimeBot.modules.helper_funcs.filters import CustomFilters
-from EmiliaAnimeBot.modules.helper_funcs.misc import split_message
-from EmiliaAnimeBot.modules.helper_funcs.string_handling import split_quotes
-from EmiliaAnimeBot.modules.log_channel import loggable
-from EmiliaAnimeBot.modules.sql import warns_sql as sql
-from EmiliaAnimeBot.modules.sql.approve_sql import is_approved
+from NarutoAnimeBot.modules.helper_funcs.filters import CustomFilters
+from NarutoAnimeBot.modules.helper_funcs.misc import split_message
+from NarutoAnimeBot.modules.helper_funcs.string_handling import split_quotes
+from NarutoAnimeBot.modules.log_channel import loggable
+from NarutoAnimeBot.modules.sql import warns_sql as sql
+from NarutoAnimeBot.modules.sql.approve_sql import is_approved
 from telegram import (CallbackQuery, Chat, InlineKeyboardButton,
                       InlineKeyboardMarkup, Message, ParseMode, Update, User)
 from telegram.error import BadRequest
