@@ -1,8 +1,8 @@
 from mtranslate import translate
-from EmiliaAnimeBot import telethn
+from NarutoAnimeBot import telethn
 import json
 import requests
-from EmiliaAnimeBot.events import register
+from NarutoAnimeBot.events import register
 from telethon import *
 from telethon.tl import functions
 import os
