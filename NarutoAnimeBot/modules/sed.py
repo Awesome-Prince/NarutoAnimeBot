@@ -2,9 +2,9 @@ import sre_constants
 
 import regex
 import telegram
-from EmiliaAnimeBot import LOGGER, dispatcher
-from EmiliaAnimeBot.modules.disable import DisableAbleMessageHandler
-from EmiliaAnimeBot.modules.helper_funcs.regex_helper import (infinite_loop_check)
+from NarutoAnimeBot import LOGGER, dispatcher
+from NarutoAnimeBot.modules.disable import DisableAbleMessageHandler
+from NarutoAnimeBot.modules.helper_funcs.regex_helper import (infinite_loop_check)
 from telegram import Update
 from telegram.ext import CallbackContext, Filters, run_async
 
