@@ -1,7 +1,7 @@
 import asyncio, time, os, asyncio, json
 from telethon.tl.types import DocumentAttributeAudio
-from EmiliaAnimeBot.events import register
-from EmiliaAnimeBot.utils import progress
+from NarutoAnimeBot.events import register
+from NarutoAnimeBot.utils import progress
 from youtube_dl import YoutubeDL
 from youtube_dl.utils import (DownloadError, ContentTooShortError,
 
