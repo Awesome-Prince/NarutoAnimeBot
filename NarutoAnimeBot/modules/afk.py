@@ -1,9 +1,9 @@
 import random
 
-from EmiliaAnimeBot import dispatcher
-from EmiliaAnimeBot.modules.disable import (DisableAbleCommandHandler)
-from EmiliaAnimeBot.modules.sql import afk_sql as sql
-from EmiliaAnimeBot.modules.users import get_user_id
+from NarutoAnimeBot import dispatcher
+from NarutoAnimeBot.modules.disable import (DisableAbleCommandHandler)
+from NarutoAnimeBot.modules.sql import afk_sql as sql
+from NarutoAnimeBot.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
