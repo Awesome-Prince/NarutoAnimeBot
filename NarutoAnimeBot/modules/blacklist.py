@@ -6,17 +6,17 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-import EmiliaAnimeBot.modules.sql.blacklist_sql as sql
-from EmiliaAnimeBot.modules.sql.approve_sql import is_approved
-from EmiliaAnimeBot import dispatcher, LOGGER
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from EmiliaAnimeBot.modules.helper_funcs.extraction import extract_text
-from EmiliaAnimeBot.modules.helper_funcs.misc import split_message
-from EmiliaAnimeBot.modules.log_channel import loggable
-from EmiliaAnimeBot.modules.warns import warn
-from EmiliaAnimeBot.modules.helper_funcs.string_handling import extract_time
-from EmiliaAnimeBot.modules.connection import connected
+import NarutoAnimeBot.modules.sql.blacklist_sql as sql
+from NarutoAnimeBot.modules.sql.approve_sql import is_approved
+from NarutoAnimeBot import dispatcher, LOGGER
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from NarutoAnimeBot.modules.helper_funcs.extraction import extract_text
+from NarutoAnimeBot.modules.helper_funcs.misc import split_message
+from NarutoAnimeBot.modules.log_channel import loggable
+from NarutoAnimeBot.modules.warns import warn
+from NarutoAnimeBot.modules.helper_funcs.string_handling import extract_time
+from NarutoAnimeBot.modules.connection import connected
 
 from EmiliaAnimeBot.modules.helper_funcs.alternate import send_message, typing_action
 
