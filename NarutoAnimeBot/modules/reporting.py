@@ -1,10 +1,10 @@
 import html
 
-from EmiliaAnimeBot import (LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher)
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import (user_admin,
+from NarutoAnimeBot import (LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher)
+from NarutoAnimeBot.modules.helper_funcs.chat_status import (user_admin,
                                                            user_not_admin)
-from EmiliaAnimeBot.modules.log_channel import loggable
-from EmiliaAnimeBot.modules.sql import reporting_sql as sql
+from NarutoAnimeBot.modules.log_channel import loggable
+from NarutoAnimeBot.modules.sql import reporting_sql as sql
 from telegram import (Chat, InlineKeyboardButton, InlineKeyboardMarkup,
                       ParseMode, Update)
 from telegram.error import BadRequest, Unauthorized
