@@ -8,8 +8,8 @@ from pathlib import Path
 from telethon import events
 
 from pymongo import MongoClient
-from EmiliaAnimeBot import MONGO_DB_URI
-from EmiliaAnimeBot import telethn
+from NarutoAnimeBot import MONGO_DB_URI
+from NarutoAnimeBot import telethn
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
@@ -184,8 +184,8 @@ def load_module(shortname):
         import importlib
         import EmiliaAnimeBot.tevents
 
-        path = Path(f"EmiliaAnimeBot/modules/{shortname}.py")
-        name = "EmiliaAnimeBot.modules.{}".format(shortname)
+        path = Path(f"NarutoAnimeBot/modules/{shortname}.py")
+        name = "NarutoAnimeBot.modules.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
@@ -194,8 +194,8 @@ def load_module(shortname):
         import importlib
         import EmiliaAnimeBot.tevents
 
-        path = Path(f"EmiliaAnimeBot/modules/{shortname}.py")
-        name = "EmiliaAnimeBot.modules.{}".format(shortname)
+        path = Path(f"NarutoAnimeBot/modules/{shortname}.py")
+        name = "NarutoAnimeBot.modules.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         mod.register = register
@@ -207,7 +207,7 @@ def load_module(shortname):
         print("Successfully imported " + shortname)
 
 
-path = "EmiliaAnimeBot/modules/*.py"
+path = "NarutoAnimeBot/modules/*.py"
 files = glob.glob(path)
 for name in files:
     with open(name) as f:
