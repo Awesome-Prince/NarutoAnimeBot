@@ -3,7 +3,7 @@ from functools import wraps
 
 from telegram.ext import CallbackContext
 
-from EmiliaAnimeBot.modules.helper_funcs.misc import is_module_loaded
+from NarutoAnimeBot.modules.helper_funcs.misc import is_module_loaded
 
 FILENAME = __name__.rsplit(".", 1)[-1]
 
@@ -13,9 +13,9 @@ if is_module_loaded(FILENAME):
     from telegram.ext import CommandHandler, JobQueue, run_async
     from telegram.utils.helpers import escape_markdown
 
-    from EmiliaAnimeBot import EVENT_LOGS, LOGGER, dispatcher
-    from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin
-    from EmiliaAnimeBot.modules.sql import log_channel_sql as sql
+    from NarutoAnimeBot import EVENT_LOGS, LOGGER, dispatcher
+    from NarutoAnimeBot.modules.helper_funcs.chat_status import user_admin
+    from NarutoAnimeBot.modules.sql import log_channel_sql as sql
 
     def loggable(func):
 
