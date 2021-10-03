@@ -1,6 +1,6 @@
 import requests
-from EmiliaAnimeBot import dispatcher
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot import dispatcher
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
