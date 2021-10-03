@@ -1,4 +1,4 @@
-from EmiliaAnimeBot import db
+from NarutoAnimeBot import db
 from typing import Dict, List, Union
 
 karmadb = db.karma
