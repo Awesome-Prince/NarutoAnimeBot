@@ -157,18 +157,12 @@
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people. Keep this Empty",
          "required": false,
-         "value": ""
+        "value": ""
       },
       "MONGO_DB_URI": {
          "description": "Your Mongo DB URI",
          "required": true,
          "value": ""
-      },
-      "heroku api key": {
-         "description": "Your get from",
-         "required": true,
-         "value": ""
-
        },
       "ARQ_API_KEY": {
          "description": "Get one @ARQRobot on Telegram",
