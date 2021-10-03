@@ -6,10 +6,10 @@ from telegram.ext import (CallbackContext, CommandHandler, Filters,
                           MessageHandler, run_async)
 
 from telegram.ext import Filters, MessageHandler, run_async
-from EmiliaAnimeBot.modules.helper_funcs.extraction import extract_user_and_text
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot import dispatcher
-from EmiliaAnimeBot.modules.thonkify_dict import thonkifydict
+from NarutoAnimeBot.modules.helper_funcs.extraction import extract_user_and_text
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot import dispatcher
+from NarutoAnimeBot.modules.thonkify_dict import thonkifydict
 
 @run_async
 def plet(update: Update, context: CallbackContext):
