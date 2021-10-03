@@ -18,7 +18,7 @@ from NarutoAnimeBot.modules.warns import warn
 from NarutoAnimeBot.modules.helper_funcs.string_handling import extract_time
 from NarutoAnimeBot.modules.connection import connected
 
-from EmiliaAnimeBot.modules.helper_funcs.alternate import send_message, typing_action
+from NarutoAnimeBot.modules.helper_funcs.alternate import send_message, typing_action
 
 BLACKLIST_GROUP = 11
 
