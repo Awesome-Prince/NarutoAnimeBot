@@ -9,8 +9,8 @@ from bing_image_downloader import downloader
 from requests import get, post
 from telethon.tl import functions, types
 
-from EmiliaAnimeBot import telethn as client
-from EmiliaAnimeBot.events import register
+from NarutoAnimeBot import telethn as client
+from NarutoAnimeBot.events import register
 
 
 def progress(current, total):
