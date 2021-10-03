@@ -1,5 +1,5 @@
-from EmiliaAnimeBot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from EmiliaAnimeBot import DRAGONS
+from NarutoAnimeBot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from NarutoAnimeBot import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
@@ -39,12 +39,12 @@ async def is_user_admin(user_id: int, chat_id):
     return status
 
 
-async def Emilia_is_admin(chat_id: int):
+async def Naruto_is_admin(chat_id: int):
     status = False
-    Emilia = await telethn.get_me()
+    Naruto = await telethn.get_me()
     async for user in telethn.iter_participants(
             chat_id, filter=ChannelParticipantsAdmins):
-        if Emilia.id == user.id:
+        if Naruto.id == user.id:
             status = True
             break
     return status
