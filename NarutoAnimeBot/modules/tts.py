@@ -13,12 +13,12 @@ import json
 import urllib.request
 import urllib.parse
 import requests
-from EmiliaAnimeBot import (DEV_USERS, OWNER_ID, DRAGONS, SUPPORT_CHAT, DEMONS,
+from NarutoAnimeBot import (DEV_USERS, OWNER_ID, DRAGONS, SUPPORT_CHAT, DEMONS,
                           TIGERS, WOLVES, dispatcher,updater)
-from EmiliaAnimeBot.__main__ import STATS, TOKEN, USER_INFO
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot.modules.helper_funcs.filters import CustomFilters
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import sudo_plus, user_admin
+from NarutoAnimeBot.__main__ import STATS, TOKEN, USER_INFO
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot.modules.helper_funcs.filters import CustomFilters
+from NarutoAnimeBot.modules.helper_funcs.chat_status import sudo_plus, user_admin
 from telegram import MessageEntity, ParseMode, Update, constants
 from telegram.error import BadRequest
 from emoji import UNICODE_EMOJI
