@@ -1,11 +1,11 @@
 import html
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot import dispatcher, DRAGONS
-from EmiliaAnimeBot.modules.helper_funcs.extraction import extract_user
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot import dispatcher, DRAGONS
+from NarutoAnimeBot.modules.helper_funcs.extraction import extract_user
 from telegram.ext import CallbackContext, CallbackQueryHandler, Filters, run_async
-import EmiliaAnimeBot.modules.sql.approve_sql as sql
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin
-from EmiliaAnimeBot.modules.log_channel import loggable
+import NarutoAnimeBot.modules.sql.approve_sql as sql
+from NarutoAnimeBot.modules.helper_funcs.chat_status import user_admin
+from NarutoAnimeBot.modules.log_channel import loggable
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Update
 from telegram.utils.helpers import mention_html
 from telegram.error import BadRequest
