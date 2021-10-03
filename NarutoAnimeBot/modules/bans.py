@@ -5,10 +5,10 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from EmiliaAnimeBot import (DEV_USERS, LOGGER, OWNER_ID, DRAGONS, DEMONS, TIGERS,
+from NarutoAnimeBot import (DEV_USERS, LOGGER, OWNER_ID, DRAGONS, DEMONS, TIGERS,
                           WOLVES, dispatcher)
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import (
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot.modules.helper_funcs.chat_status import (
     bot_admin, can_restrict, connection_status, is_user_admin,
     is_user_ban_protected, is_user_in_chat, user_admin, user_can_ban)
 from EmiliaAnimeBot.modules.helper_funcs.extraction import extract_user_and_text
