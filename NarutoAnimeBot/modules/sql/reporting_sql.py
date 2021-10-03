@@ -1,7 +1,7 @@
 import threading
 from typing import Union
 
-from EmiliaAnimeBot.modules.sql import BASE, SESSION
+from NarutoAnimeBot.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String
 
 
