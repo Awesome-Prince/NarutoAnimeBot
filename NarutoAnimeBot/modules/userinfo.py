@@ -14,17 +14,17 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from EmiliaAnimeBot import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
+from NarutoAnimeBot import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
                           INFOPIC, dispatcher, sw)
-from EmiliaAnimeBot.__main__ import STATS, TOKEN, USER_INFO
-import EmiliaAnimeBot.modules.sql.userinfo_sql as sql
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot.modules.sql.global_bans_sql import is_user_gbanned
-from EmiliaAnimeBot.modules.sql.afk_sql import is_afk, check_afk_status
-from EmiliaAnimeBot.modules.sql.users_sql import get_user_num_chats
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import sudo_plus
-from EmiliaAnimeBot.modules.helper_funcs.extraction import extract_user
-from EmiliaAnimeBot import telethn as EmiliaTelethonClient, TIGERS, DRAGONS, DEMONS
+from NarutoAnimeBot.__main__ import STATS, TOKEN, USER_INFO
+import NarutoAnimeBot.modules.sql.userinfo_sql as sql
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot.modules.sql.global_bans_sql import is_user_gbanned
+from NarutoAnimeBot.modules.sql.afk_sql import is_afk, check_afk_status
+from NarutoAnimeBot.modules.sql.users_sql import get_user_num_chats
+from NarutoAnimeBot.modules.helper_funcs.chat_status import sudo_plus
+from NarutoAnimeBot.modules.helper_funcs.extraction import extract_user
+from NarutoAnimeBot import telethn as EmiliaTelethonClient, TIGERS, DRAGONS, DEMONS
 
 
 def no_by_per(totalhp, percentage):
@@ -511,7 +511,7 @@ Examples:
  • `/info`*:* get information about a user. 
  
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/EmiliaBotUpdates/5) 
+ Come and see [HP System explained](https://t.me/PigasusUpdates) 
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
