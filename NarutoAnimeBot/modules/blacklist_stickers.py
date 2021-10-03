@@ -1,18 +1,18 @@
 import html
 from typing import Optional
 
-import EmiliaAnimeBot.modules.sql.blsticker_sql as sql
-from EmiliaAnimeBot import LOGGER, dispatcher
-from EmiliaAnimeBot.modules.connection import connected
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot.modules.helper_funcs.alternate import send_message
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import (user_admin,
+import NarutoAnimeBot.modules.sql.blsticker_sql as sql
+from NarutoAnimeBot import LOGGER, dispatcher
+from NarutoAnimeBot.modules.connection import connected
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot.modules.helper_funcs.alternate import send_message
+from NarutoAnimeBot.modules.helper_funcs.chat_status import (user_admin,
                                                            user_not_admin)
-from EmiliaAnimeBot.modules.helper_funcs.misc import split_message
-from EmiliaAnimeBot.modules.helper_funcs.string_handling import extract_time
+from NarutoAnimeBot.modules.helper_funcs.misc import split_message
+from NarutoAnimeBot.modules.helper_funcs.string_handling import extract_time
 
-from EmiliaAnimeBot.modules.log_channel import loggable
-from EmiliaAnimeBot.modules.warns import warn
+from NarutoAnimeBot.modules.log_channel import loggable
+from NarutoAnimeBot.modules.warns import warn
 from telegram import (Chat, Message, ParseMode, Update, User, ChatPermissions)
 from telegram.error import BadRequest
 from telegram.ext import (CallbackContext, CommandHandler, Filters,
