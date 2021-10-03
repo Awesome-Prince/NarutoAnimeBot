@@ -1,8 +1,8 @@
 import os
-from EmiliaAnimeBot import telethn as tbot
+from NarutoAnimeBot import telethn as tbot
 from geopy.geocoders import Nominatim
-from EmiliaAnimeBot.events import register
-from EmiliaAnimeBot import *
+from NarutoAnimeBot.events import register
+from NarutoAnimeBot import *
 from telethon import *
 from telethon.tl import *
 
