@@ -3,8 +3,8 @@ from traceback import format_exc
 
 from pyrogram import filters
 from pyrogram.types import Message
-from EmiliaAnimeBot import pgram as app
-from EmiliaAnimeBot.pyrogramee.errors import capture_err
+from NarutoAnimeBot import pgram as app
+from NarutoAnimeBot.pyrogramee.errors import capture_err
 
 from Python_ARQ import ARQ
 from aiohttp import ClientSession
