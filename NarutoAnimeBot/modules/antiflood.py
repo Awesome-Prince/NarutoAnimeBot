@@ -3,23 +3,23 @@ from typing import Optional, List
 
 from telegram import Message, Chat, Update, Bot, User, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, ChatPermissions
 
-from EmiliaAnimeBot import TIGERS, WOLVES, dispatcher
-from EmiliaAnimeBot.modules.sql.approve_sql import is_approved
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import (
+from NarutoAnimeBot import TIGERS, WOLVES, dispatcher
+from NarutoAnimeBot.modules.sql.approve_sql import is_approved
+from NarutoAnimeBot.modules.helper_funcs.chat_status import (
     bot_admin, can_restrict, connection_status, is_user_admin, user_admin,
     user_admin_no_reply)
-from EmiliaAnimeBot.modules.log_channel import loggable
-from EmiliaAnimeBot.modules.sql import antiflood_sql as sql
+from NarutoAnimeBot.modules.log_channel import loggable
+from NarutoAnimeBot.modules.sql import antiflood_sql as sql
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler, Filters, MessageHandler, run_async
 from telegram.utils.helpers import mention_html, escape_markdown
-from EmiliaAnimeBot import dispatcher
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict
-from EmiliaAnimeBot.modules.helper_funcs.string_handling import extract_time
-from EmiliaAnimeBot.modules.log_channel import loggable
-from EmiliaAnimeBot.modules.sql import antiflood_sql as sql
-from EmiliaAnimeBot.modules.connection import connected
-from EmiliaAnimeBot.modules.helper_funcs.alternate import send_message
+from NarutoAnimeBot import dispatcher
+from NarutoAnimeBot.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict
+from NarutoAnimeBot.modules.helper_funcs.string_handling import extract_time
+from NarutoAnimeBot.modules.log_channel import loggable
+from NarutoAnimeBot.modules.sql import antiflood_sql as sql
+from NarutoAnimeBot.modules.connection import connected
+from NarutoAnimeBot.modules.helper_funcs.alternate import send_message
 FLOOD_GROUP = 3
 
 
