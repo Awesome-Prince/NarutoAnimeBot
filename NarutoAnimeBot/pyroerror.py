@@ -1,7 +1,7 @@
 import sys
 import traceback
 from functools import wraps
-from EmiliaAnimeBot import pgram, LOG_GROUP_ID
+from NarutoAnimeBot import pgram, LOG_GROUP_ID
 
 def split_limits(text):
     if len(text) < 2048:
