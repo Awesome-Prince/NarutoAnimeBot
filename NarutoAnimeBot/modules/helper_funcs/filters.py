@@ -1,4 +1,4 @@
-from EmiliaAnimeBot import DEV_USERS, DRAGONS, DEMONS
+from NarutoAnimeBot import DEV_USERS, DRAGONS, DEMONS
 from telegram import Message
 from telegram.ext import BaseFilter
 
