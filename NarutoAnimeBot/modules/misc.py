@@ -1,6 +1,6 @@
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot import dispatcher
+from NarutoAnimeBot.modules.helper_funcs.chat_status import user_admin
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot import dispatcher
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import MessageEntity, ParseMode, Update
