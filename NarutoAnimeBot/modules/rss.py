@@ -2,9 +2,9 @@ import html
 import re
 
 from feedparser import parse
-from EmiliaAnimeBot import dispatcher, updater
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin
-from EmiliaAnimeBot.modules.sql import rss_sql as sql
+from NarutoAnimeBot import dispatcher, updater
+from NarutoAnimeBot.modules.helper_funcs.chat_status import user_admin
+from NarutoAnimeBot.modules.sql import rss_sql as sql
 from telegram import ParseMode, Update, constants
 from telegram.ext import CallbackContext, CommandHandler
 
