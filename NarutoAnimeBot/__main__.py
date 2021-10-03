@@ -5,13 +5,13 @@ import re
 from sys import argv
 from typing import Optional
 
-from EmiliaAnimeBot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
+from NarutoAnimeBot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK,
                           dispatcher, StartTime, telethn, updater, pgram)
 
-from EmiliaAnimeBot.modules import ALL_MODULES
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import is_user_admin
-from EmiliaAnimeBot.modules.helper_funcs.misc import paginate_modules
+from NarutoAnimeBot.modules import ALL_MODULES
+from NarutoAnimeBot.modules.helper_funcs.chat_status import is_user_admin
+from NarutoAnimeBot.modules.helper_funcs.misc import paginate_modules
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.error import (BadRequest, ChatMigrated, NetworkError,
@@ -21,7 +21,7 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-EMILIA_IMG = "https://telegra.ph/file/cd95b1bd8d5381cb3fb70.jpg"
+Naruto_IMG = "https://telegra.ph/file/92ad18a6f933fb9397ada.jpg"
 
 
 def get_readable_time(seconds: int) -> str:
@@ -54,11 +54,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`𝐇𝐄𝐘 𝐓𝐇𝐄𝐑𝐄!` [🧑](https://telegra.ph/file/cd95b1bd8d5381cb3fb70.jpg) 
+`𝐇𝐄𝐘 𝐓𝐇𝐄𝐑𝐄!` [🧑](https://telegra.ph/file/79c85975e6711db20a9df.jpg) 
 
-`𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒` *𝐕𝐀𝐋𝐓 𝐀𝐎𝐈*`
+`𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒` *Naruto*`
 
-`𝐈 𝐀𝐌 𝐀 𝐁𝐄𝐘𝐁𝐋𝐀𝐃𝐄 𝐓𝐇𝐄𝐌𝐄𝐃 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐁𝐎𝐓.`
+`𝐈 𝐀𝐌 𝐀 Anime 𝐓𝐇𝐄𝐌𝐄𝐃 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐁𝐎𝐓.`
 
 𝐌𝐀𝐍𝐀𝐆𝐄𝐃 𝐁𝐘 𝐏𝐈𝐆𝐀𝐒𝐔𝐒 𝐔𝐏𝐃𝐀𝐓𝐄 𝐅𝐎𝐑 𝐘𝐎𝐔𝐑 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐆𝐑𝐎𝐔𝐏
 
@@ -70,7 +70,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="༒ 𝙰𝙳𝙳 𝚅𝙰𝙻𝚃 𝙰𝙾𝙸 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ༒",url="t.me/VALTAOITHEBOT?startgroup=true"
+            text="༒ 𝙰𝙳𝙳 Naruto 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ༒",url="t.me/NARUTOPGBOT?startgroup=true"
         ),
     ],
     [
@@ -84,7 +84,7 @@ buttons = [
         ),
       
         InlineKeyboardButton(
-          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="http://t.me/FreeDeLaHoyarobot"
+          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="http://t.me/VALTAOITHEBOT"
         ),
     ],
          
@@ -95,7 +95,7 @@ buttons = [
     ],
     [
        InlineKeyboardButton(
-           text="彡 𝙼𝚈 𝙾𝚆𝙽𝙴𝚁 彡", url="https://t.me/Rohith_no_1"
+           text="彡 LOGS 彡", url="https://t.me/PigasusLogs"
         ),
      
     ],
@@ -103,12 +103,12 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [𝐕𝐀𝐋𝐓 𝐀𝐎𝐈!](https://telegra.ph/file/cd95b1bd8d5381cb3fb70.jpg) 
+`Hey there! My name is` [NARUTO!](https://telegra.ph/file/92ad18a6f933fb9397ada.jpg) 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
 Heya, glad to hear you want to donate!
-I'd Like you to Donate that Money to my owner ‣ @ROHITH_NO_1. 
+I'd Like you to Donate that Money to my owner ‣. 
 Thanks!
 """
 
@@ -123,7 +123,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("EmiliaAnimeBot.modules." + module_name)
+    imported_module = importlib.import_module("NarutoAnimeBot.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            EMILIA_IMG, caption= "<code>valt aoi ʜᴇʀᴇ ғᴏʀ ʏᴏᴜ❤\nI am Awake Since</code>: <code>{}</code>".format(
+           Naruto_IMG, caption= "<code>naruto ʜᴇʀᴇ ғᴏʀ ʏᴏᴜ❤\nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -230,10 +230,10 @@ def start(update: Update, context: CallbackContext):
                   InlineKeyboardButton(text="【 ✗Sᴜᴘᴘᴏʀᴛ✗ 】", url="https://t.me/PigasusSupport")
                   ],
                   [
-                  InlineKeyboardButton(text="【 Source 】", url="https://github.com/IzumiCypherX/EmiliaAnimeBot")
+                  InlineKeyboardButton(text="【 Updates 】", url="https://t.me/PigasusUpdates")
                   ],
                   [
-                  InlineKeyboardButton(text="【 ✗Cʀᴇᴀᴛᴇʀ✗ 】", url="https://t.me/ROHITH_NO_1")
+                  InlineKeyboardButton(text="【 ✗Source✗ 】", url="https://github.com/valtaoibestblader/NarutoAnimeBot")
                   ]
                 ]
             ),
@@ -367,14 +367,14 @@ def gabi_about_callback(update, context):
     query = update.callback_query
     if query.data == "gabi_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *VALT AOI*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *NARUTO*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\nIf you have any question about *VALT AOI*, let us know at .""",
+                 \n\nIf you have any question about *NARUTO*, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -400,8 +400,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi. 🧑I'm *VALT AOI*
-                 \nMy Source Code Can be Found at Github at this [Link](https://github.com/Rohithbotusers/Valt-Aoi""",
+            text=""" Hi. 🧑I'm *NARUTO*
+                 \nMy Source Code Can be Found at Github at this [Link](https://github.com/valtaoibestblader/NarutoAnimeBot""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
