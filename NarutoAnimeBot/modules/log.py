@@ -2,9 +2,9 @@ from telegram import Update
 
 from telegram.ext import CallbackContext, run_async, CommandHandler
 
-from EmiliaAnimeBot import dispatcher
+from NarutoAnimeBot import dispatcher
 
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import dev_plus
+from NarutoAnimeBot.modules.helper_funcs.chat_status import dev_plus
 
 
 @run_async
