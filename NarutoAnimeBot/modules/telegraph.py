@@ -1,14 +1,14 @@
-from EmiliaAnimeBot.tevents import register
-from EmiliaAnimeBot import telethn as tbot
+from NarutoAnimeBot.tevents import register
+from NarutoAnimeBot import telethn as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
 import os
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
-emilia = "EMILIA"
+Naruto = "Naruto"
 telegraph = Telegraph()
-r = telegraph.create_account(short_name=emilia)
+r = telegraph.create_account(short_name=Naruto)
 auth_url = r["auth_url"]
 
 
