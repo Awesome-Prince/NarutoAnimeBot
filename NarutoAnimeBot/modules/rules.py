@@ -1,9 +1,9 @@
 from typing import Optional
 
-import EmiliaAnimeBot.modules.sql.rules_sql as sql
-from EmiliaAnimeBot import dispatcher
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin
-from EmiliaAnimeBot.modules.helper_funcs.string_handling import markdown_parser
+import NarutoAnimeBot.modules.sql.rules_sql as sql
+from NarutoAnimeBot import dispatcher
+from NarutoAnimeBot.modules.helper_funcs.chat_status import user_admin
+from NarutoAnimeBot.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, Message,
                       ParseMode, Update, User)
 from telegram.error import BadRequest
