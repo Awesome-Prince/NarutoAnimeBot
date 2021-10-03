@@ -1,7 +1,7 @@
 import threading
 
-from EmiliaAnimeBot import dispatcher
-from EmiliaAnimeBot.modules.sql import BASE, SESSION
+from NarutoAnimeBot import dispatcher
+from NarutoAnimeBot.modules.sql import BASE, SESSION
 from sqlalchemy import (Column, ForeignKey, Integer, String, UnicodeText,
                         UniqueConstraint, func)
 
