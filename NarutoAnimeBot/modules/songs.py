@@ -7,11 +7,11 @@ import aiohttp
 import youtube_dl
 
 from pyrogram import filters
-from EmiliaAnimeBot import pgram
+from NarutoAnimeBot import pgram
 from youtube_search import YoutubeSearch
-from EmiliaAnimeBot.pyroerror import capture_err
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot import dispatcher
+from NarutoAnimeBot.pyroerror import capture_err
+from NarutoAnimeBot.modules.disable import DisableAbleCommandHandler
+from NarutoAnimeBot import dispatcher
 
 def time_to_seconds(time):
     stringt = str(time)
