@@ -72,13 +72,6 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 
     Deploying on Local Machine
 
-</p>
-
-```console
-    NarutoAnimeBot@arch:~$ git clone https://github.com/valtaoibestblader/NarutoAnimeBot
-    NarutoAnimeBot@arch:~$ cd NarutoAnimeBot
-    NarutoAnimeBot@arch:~$ cp sample_config.py config.py
-```
 
 Edit Config.py with your own Values
 
