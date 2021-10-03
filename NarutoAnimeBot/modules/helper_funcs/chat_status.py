@@ -393,6 +393,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from EmiliaAnimeBot.modules import connection
+from NarutoAnimeBot.modules import connection
 
 connected = connection.connected
