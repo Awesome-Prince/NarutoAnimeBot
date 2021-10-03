@@ -1,6 +1,6 @@
-from EmiliaAnimeBot.events import register
-from EmiliaAnimeBot import OWNER_ID
-from EmiliaAnimeBot import telethn as tbot
+from NarutoAnimeBot.events import register
+from NarutoAnimeBot import OWNER_ID
+from NarutoAnimeBot import telethn as tbot
 import os
 import random
 from PIL import Image, ImageDraw, ImageFont
@@ -8,23 +8,23 @@ from PIL import Image, ImageDraw, ImageFont
 
 logopics = [
  
- "./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_10-41-31.jpg",
+ "./NarutoAnimeBot/resources/logopics/photo_2021-09-11_10-41-31.jpg",
 	
- "./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_15-46-57.jpg",
+ "./NarutoAnimeBot/resources/logopics/photo_2021-09-11_15-46-57.jpg",
 
- "./EmiliaAnimeBot/resources/logopics/photo_2021-09-18_13-56-02.jpg",
+ "./NarutoAnimeBot/resources/logopics/photo_2021-09-18_13-56-02.jpg",
 
- "/EmiliaAnimeBot/resources/logopics/photo_2021-09-18_14-07-29.jpg",
+ "/NarutoAnimeBot/resources/logopics/photo_2021-09-18_14-07-29.jpg",
 
- "./EmiliaAnimeBot/resources/logopics/photo_2021-09-15_18-51-19.jpg",
+ "./NarutoAnimeBot/resources/logopics/photo_2021-09-15_18-51-19.jpg",
 	
- "./EmiliaAnimeBot/resources/logopics/photo_2021-09-14_16-34-25.jpg"
+ "./NarutoAnimeBot/resources/logopics/photo_2021-09-14_16-34-25.jpg"
  
 ]
 
 logofonts = [
  
- "./EmiliaAnimeBot/resources/logofonts/Pocket Monk.tff"
+ "./NarutoAnimeBot/resources/logofonts/Pocket Monk.tff"
  
 ]
 
