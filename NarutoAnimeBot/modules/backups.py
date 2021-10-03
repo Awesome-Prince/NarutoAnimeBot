@@ -5,23 +5,23 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import EmiliaAnimeBot.modules.sql.notes_sql as sql
-from EmiliaAnimeBot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
-from EmiliaAnimeBot.__main__ import DATA_IMPORT
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin
-from EmiliaAnimeBot.modules.helper_funcs.alternate import typing_action
+import NarutoAnimeBot.modules.sql.notes_sql as sql
+from NarutoAnimeBot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
+from NarutoAnimeBot.__main__ import DATA_IMPORT
+from NarutoAnimeBot.modules.helper_funcs.chat_status import user_admin
+from NarutoAnimeBot.modules.helper_funcs.alternate import typing_action
 
-# from EmiliaAnimeBot.modules.rules import get_rules
-import EmiliaAnimeBot.modules.sql.rules_sql as rulessql
+# from NarutoAnimeBot.modules.rules import get_rules
+import NarutoAnimeBot.modules.sql.rules_sql as rulessql
 
-# from EmiliaAnimeBot.modules.sql import warns_sql as warnssql
-import EmiliaAnimeBot.modules.sql.blacklist_sql as blacklistsql
-from EmiliaAnimeBot.modules.sql import disable_sql as disabledsql
+# from NarutoAnimeBot.modules.sql import warns_sql as warnssql
+import NarutoAnimeBot.modules.sql.blacklist_sql as blacklistsql
+from NarutoAnimeBot.modules.sql import disable_sql as disabledsql
 
-# from EmiliaAnimeBot.modules.sql import cust_filters_sql as filtersql
-# import EmiliaAnimeBot.modules.sql.welcome_sql as welcsql
-import EmiliaAnimeBot.modules.sql.locks_sql as locksql
-from EmiliaAnimeBot.modules.connection import connected
+# from NarutoAnimeBot.modules.sql import cust_filters_sql as filtersql
+# import NarutoAnimeBot.modules.sql.welcome_sql as welcsql
+import NarutoAnimeBot.modules.sql.locks_sql as locksql
+from NarutoAnimeBot.modules.connection import connected
 
 
 @run_async
