@@ -1,9 +1,9 @@
 from time import sleep
 
-import EmiliaAnimeBot.modules.sql.global_bans_sql as gban_sql
-import EmiliaAnimeBot.modules.sql.users_sql as user_sql
-from EmiliaAnimeBot import DEV_USERS, OWNER_ID, dispatcher
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import dev_plus
+import NarutoAnimeBot.modules.sql.global_bans_sql as gban_sql
+import NarutoAnimeBot.modules.sql.users_sql as user_sql
+from NarutoAnimeBot import DEV_USERS, OWNER_ID, dispatcher
+from NarutoAnimeBot.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
