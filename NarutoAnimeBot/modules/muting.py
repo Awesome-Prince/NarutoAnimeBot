@@ -9,8 +9,8 @@ from NarutoAnimeBot.modules.helper_funcs.chat_status import (bot_admin,
                                                            user_admin)
 from NarutoAnimeBot.modules.helper_funcs.extraction import (extract_user,
                                                           extract_user_and_text)
-from EmiliaAnimeBot.modules.helper_funcs.string_handling import extract_time
-from EmiliaAnimeBot.modules.log_channel import loggable
+from NarutoAnimeBot.modules.helper_funcs.string_handling import extract_time
+from NarutoAnimeBot.modules.log_channel import loggable
 from telegram import Bot, Chat, ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
