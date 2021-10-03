@@ -2,7 +2,7 @@ import os
 
 from telethon.tl.types import *
 
-from EmiliaAnimeBot.pyrogramee.pluginshelper import runcmd
+from NarutoAnimeBot.pyrogramee.pluginshelper import runcmd
 
 
 async def convert_to_image(event, borg):
