@@ -4,21 +4,21 @@ import re
 import time
 from functools import partial
 
-import EmiliaAnimeBot.modules.sql.welcome_sql as sql
-from EmiliaAnimeBot import (DEV_USERS, LOGGER, OWNER_ID, DRAGONS, DEMONS, TIGERS,
+import NarutoAnimeBot.modules.sql.welcome_sql as sql
+from NarutoAnimeBot import (DEV_USERS, LOGGER, OWNER_ID, DRAGONS, DEMONS, TIGERS,
                           WOLVES, sw, dispatcher, JOIN_LOGGER)
 from EmiliaAnimeBot.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from EmiliaAnimeBot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from EmiliaAnimeBot.modules.helper_funcs.msg_types import get_welcome_type
-from EmiliaAnimeBot.modules.helper_funcs.string_handling import (
+from NarutoAnimeBot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from NarutoAnimeBot.modules.helper_funcs.msg_types import get_welcome_type
+from NarutoAnimeBot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from EmiliaAnimeBot.modules.log_channel import loggable
-from EmiliaAnimeBot.modules.sql.global_bans_sql import is_user_gbanned
+from NarutoAnimeBot.modules.log_channel import loggable
+from NarutoAnimeBot.modules.sql.global_bans_sql import is_user_gbanned
 from telegram import (
     ChatPermissions,
     InlineKeyboardButton,
@@ -39,7 +39,7 @@ from telegram.utils.helpers import escape_markdown, mention_html, mention_markdo
 
 
 
-OWNER_WELCOME_IMG = "https://telegra.ph/file/5f86acf8dbd197f69c872.jpg"
+OWNER_WELCOME_IMG = "https://telegra.ph/file/df547253d3ff2afbd1e14.jpg"
 
 VALID_WELCOME_FORMATTERS = [
     "first",
@@ -176,19 +176,19 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_photo(
-                    OWNER_WELCOME_IMG, caption= "<code>Izumi Entered The Chat</code>"
+                    OWNER_WELCOME_IMG, caption= "<code>Valt Entered The Chat</code>"
                      ),
                      parse_mode=ParseMode.HTML,
-                     reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Surprise!", url="https://www.youtube.com/watch?v=dQw4w9WgXcQ")]])
+                     reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="update channnel!", url="https://t.me/PigasusUpdates")]])
                 continue
 
             # Welcoming my Alt(for tests Lol)
             if new_mem.id == 1947860028:
                 update.effective_message.reply_photo(
-                    OWNER_WELCOME_IMG, caption= "<code>Izumi Entered The Chat</code>"
+                    OWNER_WELCOME_IMG, caption= "<code>Valt Entered The Chat</code>"
                      ),
                      parse_mode=ParseMode.HTML,
-                     reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Surprise!", url="https://www.youtube.com/watch?v=dQw4w9WgXcQ")]])
+                     reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="update channel !", url="https://t.me/PigasusUpdates")]])
   
                 continue
                 """
