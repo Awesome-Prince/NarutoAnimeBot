@@ -1,8 +1,8 @@
 import sys
 import traceback
 from functools import wraps
-from EmiliaAnimeBot import pgram as app
-from EmiliaAnimeBot import  LOG_GROUP_ID
+from NarutoAnimeBot import pgram as app
+from NarutoAnimeBot import  LOG_GROUP_ID
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 
 
