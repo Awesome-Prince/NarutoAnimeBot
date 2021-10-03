@@ -25,10 +25,10 @@ from tswift import Song
 from youtubesearchpython import VideosSearch
 
 
-from EmiliaAnimeBot import TIME_API_KEY
-from EmiliaAnimeBot.function.inlinehelper import *
-from EmiliaAnimeBot.pyrogramee.pluginshelper import fetch, json_prettify
-from EmiliaAnimeBot import pgram as app
+from NarutoAnimeBot import TIME_API_KEY
+from NarutoAnimeBot.function.inlinehelper import *
+from NarutoAnimeBot.pyrogramee.pluginshelper import fetch, json_prettify
+from NarutoAnimeBot import pgram as app
 
 TIME_API_KEY = TIME_API_KEY
 
