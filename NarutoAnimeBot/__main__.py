@@ -374,7 +374,7 @@ def gabi_about_callback(update, context):
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\nIf you have any question about *NARUTO*, let us know at .""",
+                 \n\nIf you have any question about *IMMORTAL OFFICIAL*, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -400,7 +400,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi. 🧑I'm *NARUTO*
+            text=""" Hi. 🧑I'm *IMMORTAL OFFICIAL*
                  \nMy Source Code Can be Found at Github at this [Link](https://github.com/valtaoibestblader/NarutoAnimeBot""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
