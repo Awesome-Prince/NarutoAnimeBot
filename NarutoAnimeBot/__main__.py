@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-           Naruto_IMG, caption= "<code>naruto ʜᴇʀᴇ ғᴏʀ ʏᴏᴜ❤\nI am Awake Since</code>: <code>{}</code>".format(
+           Naruto_IMG, caption= "<code>IMMORTAL OFFICIAL ʜᴇʀᴇ ғᴏʀ ʏᴏᴜ❤\nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -367,7 +367,7 @@ def gabi_about_callback(update, context):
     query = update.callback_query
     if query.data == "gabi_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *NARUTO*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *IMMORTAL OFFICIAL*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
