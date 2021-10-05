@@ -84,7 +84,7 @@ buttons = [
         ),
       
         InlineKeyboardButton(
-          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="http://t.me/VALTAOITHEBOT"
+          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="https://t.me/Starla_the_Bot"
         ),
     ],
          
@@ -103,7 +103,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [NARUTO!](https://telegra.ph/file/92ad18a6f933fb9397ada.jpg) 
+`Hey there! My name is` [IMMORTAL OFFICIAL!](https://telegra.ph/file/9937f98390262c6cf8906.jpg) 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
