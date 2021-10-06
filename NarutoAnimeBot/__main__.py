@@ -233,7 +233,7 @@ def start(update: Update, context: CallbackContext):
                   InlineKeyboardButton(text="【 Updates 】", url="https://t.me/PigasusUpdates")
                   ],
                   [
-                  InlineKeyboardButton(text="【 ✗Source✗ 】", url="https://github.com/valtaoibestblader/NarutoAnimeBot")
+                  InlineKeyboardButton(text="【 ✗Source✗ 】", url="https://t.me/Devil_the_Robot")
                   ]
                 ]
             ),
