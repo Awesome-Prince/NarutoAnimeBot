@@ -84,7 +84,7 @@ buttons = [
         ),
       
         InlineKeyboardButton(
-          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="https://t.me/Devil_the_Bot,"
+          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="https://t.me.Devil_the_Robot,"
         ),
     ],
          
