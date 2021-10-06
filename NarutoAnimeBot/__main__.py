@@ -54,9 +54,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`𝐇𝐄𝐘 𝐓𝐇𝐄𝐑𝐄!` [🧑](https://telegra.ph/file/79c85975e6711db20a9df.jpg) 
+`𝐇𝐄𝐘 𝐓𝐇𝐄𝐑𝐄!` [🧑](https://telegra.ph/file/1568ffccb0a4b9b093793.jpg) 
 
-`𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒` *Naruto*`
+`𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒` *IMMORTAL OFFICIAL*`
 
 `𝐈 𝐀𝐌 𝐀 Anime 𝐓𝐇𝐄𝐌𝐄𝐃 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐁𝐎𝐓.`
 
@@ -84,7 +84,7 @@ buttons = [
         ),
       
         InlineKeyboardButton(
-          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="https://t.me/Starla_the_Bot"
+          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="https://t.me/Devil_the_Bot,"
         ),
     ],
          
