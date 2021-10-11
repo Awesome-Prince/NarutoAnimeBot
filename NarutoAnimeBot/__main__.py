@@ -56,9 +56,9 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 `𝐇𝐄𝐘 𝐓𝐇𝐄𝐑𝐄!` [🧑](https://telegra.ph/file/1568ffccb0a4b9b093793.jpg) 
 
-`𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒` *IMMORTAL OFFICIAL*`
+`𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒` *₱Ø₭Ɇ ⱤØ฿Ø₮*`
 
-`𝐈 𝐀𝐌 𝐀 Anime 𝐓𝐇𝐄𝐌𝐄𝐃 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐁𝐎𝐓.`
+`𝐈 𝐀𝐌 𝐀 Pokemon 𝐓𝐇𝐄𝐌𝐄𝐃 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐁𝐎𝐓.`
 
 𝐌𝐀𝐍𝐀𝐆𝐄𝐃 𝐁𝐘 𝐏𝐈𝐆𝐀𝐒𝐔𝐒 𝐔𝐏𝐃𝐀𝐓𝐄 𝐅𝐎𝐑 𝐘𝐎𝐔𝐑 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐆𝐑𝐎𝐔𝐏
 
@@ -70,7 +70,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="༒ 𝙰𝙳𝙳 Naruto 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ༒",url="t.me/NarutoTheAnimeBot?startgroup=true"
+            text="༒ 𝙰𝙳𝙳 ₱Ø₭Ɇ ⱤØ฿Ø₮ 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ༒",url="t.me/NarutoTheAnimeBot?startgroup=true"
         ),
     ],
     [
@@ -103,7 +103,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [IMMORTAL OFFICIAL!](https://telegra.ph/file/9937f98390262c6cf8906.jpg) 
+`Hey there! My name is` [₱Ø₭Ɇ ⱤØ฿Ø₮!](https://telegra.ph/file/9937f98390262c6cf8906.jpg) 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
