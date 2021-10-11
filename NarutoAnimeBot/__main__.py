@@ -227,13 +227,13 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="【 ✗Sᴜᴘᴘᴏʀᴛ✗ 】", url="https://t.me/PigasusSupport")
+                  InlineKeyboardButton(text="【 ✗Sᴜᴘᴘᴏʀᴛ✗ 】", url="https://t.me/LovelySsupport")
                   ],
                   [
-                  InlineKeyboardButton(text="【 Updates 】", url="https://t.me/PigasusUpdates")
+                  InlineKeyboardButton(text="【 Updates 】", url="https://t.me/Lovelysupdates")
                   ],
                   [
-                  InlineKeyboardButton(text="【 ✗Source✗ 】", url="https://t.me/Devil_the_Robot")
+                  InlineKeyboardButton(text="【 ✗Owner✗ 】", url="https://t.me/immortaltamilguys")
                   ]
                 ]
             ),
