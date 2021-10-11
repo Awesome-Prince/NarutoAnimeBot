@@ -103,7 +103,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [₱Ø₭Ɇ ⱤØ฿Ø₮!](https://telegra.ph/file/9937f98390262c6cf8906.jpg) 
+`Hey there! My name is` [₱Ø₭Ɇ ⱤØ฿Ø₮ ✗LY!](https://telegra.ph/file/390c2acd8aa84f5b47812.jpg) 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
@@ -367,7 +367,7 @@ def gabi_about_callback(update, context):
     query = update.callback_query
     if query.data == "gabi_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *IMMORTAL OFFICIAL*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *₱Ø₭Ɇ ⱤØ฿Ø₮ ✗LY*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
