@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-           Naruto_IMG, caption= "<code>IMMORTAL OFFICIAL ʜᴇʀᴇ ғᴏʀ ʏᴏᴜ❤\nI am Awake Since</code>: <code>{}</code>".format(
+           Naruto_IMG, caption= "<code> ₱Ø₭Ɇ ⱤØ฿Ø₮ ✗LY ʜᴇʀᴇ ғᴏʀ ʏᴏᴜ❤\nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
