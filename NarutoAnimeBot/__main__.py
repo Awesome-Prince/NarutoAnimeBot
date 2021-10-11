@@ -62,7 +62,7 @@ PM_START_TEXT = """
 
 𝐌𝐀𝐍𝐀𝐆𝐄𝐃 𝐁𝐘 𝐏𝐈𝐆𝐀𝐒𝐔𝐒 𝐔𝐏𝐃𝐀𝐓𝐄 𝐅𝐎𝐑 𝐘𝐎𝐔𝐑 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐆𝐑𝐎𝐔𝐏
 
-𝐉𝐎𝐈𝐍 @𝐏𝐈𝐆𝐀𝐒𝐔𝐒𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐀𝐍𝐃 @𝐏𝐈𝐆𝐀𝐒𝐔𝐒𝐒𝐔𝐏𝐏𝐎𝐑𝐓
+𝐉𝐎𝐈𝐍 @lovelysupdates 𝐀𝐍𝐃 @LovelySsupport
 
 𝐘𝐎𝐔 𝐂𝐀𝐍 𝐅𝐈𝐍𝐃 𝐌𝐘 𝐋𝐈𝐒𝐓 𝐎𝐅 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 𝐖𝐈𝐓𝐇` *./help*   
 """
@@ -90,12 +90,12 @@ buttons = [
          
     [
        InlineKeyboardButton(
-           text="✫ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝚃 ✫", url="https://t.me/PigasusSupport"
+           text="✫ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝚃 ✫", url="https://t.me/LovelySsupport"
          ),
     ],
     [
        InlineKeyboardButton(
-           text="彡 LOGS 彡", url="https://t.me/PigasusLogs"
+           text="彡 LOGS 彡", url="https://t.me/lovelyslog"
         ),
      
     ],
