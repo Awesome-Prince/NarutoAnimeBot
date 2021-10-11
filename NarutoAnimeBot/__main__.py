@@ -54,7 +54,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`𝐇𝐄𝐘 𝐓𝐇𝐄𝐑𝐄!` [🧑](https://telegra.ph/file/1568ffccb0a4b9b093793.jpg) 
+`𝐇𝐄𝐘 𝐓𝐇𝐄𝐑𝐄!` [🧑](https://telegra.ph/file/27476b05c5fde96601f44.jpg) 
 
 `𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒` *₱Ø₭Ɇ ⱤØ฿Ø₮*`
 
