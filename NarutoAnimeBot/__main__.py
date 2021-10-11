@@ -80,7 +80,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-          text="༄ 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ༄", url="https://t.me/PigasusUpdates"
+          text="༄ 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ༄", url="https://t.me/Lovelysupdates"
         ),
       
         InlineKeyboardButton(
