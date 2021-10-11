@@ -21,7 +21,7 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-Naruto_IMG = "https://telegra.ph/file/92ad18a6f933fb9397ada.jpg"
+Naruto_IMG = "https://telegra.ph/file/93a782f6f658e74d49323.jpg"
 
 
 def get_readable_time(seconds: int) -> str:
@@ -60,7 +60,7 @@ PM_START_TEXT = """
 
 `𝐈 𝐀𝐌 𝐀 Pokemon 𝐓𝐇𝐄𝐌𝐄𝐃 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐁𝐎𝐓.`
 
-𝐌𝐀𝐍𝐀𝐆𝐄𝐃 𝐁𝐘 𝐏𝐈𝐆𝐀𝐒𝐔𝐒 𝐔𝐏𝐃𝐀𝐓𝐄 𝐅𝐎𝐑 𝐘𝐎𝐔𝐑 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐆𝐑𝐎𝐔𝐏
+𝐌𝐀𝐍𝐀𝐆𝐄𝐃 𝐁𝐘 LOVELY UPDATES 𝐅𝐎𝐑 𝐘𝐎𝐔𝐑 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐆𝐑𝐎𝐔𝐏
 
 𝐉𝐎𝐈𝐍 @lovelysupdates 𝐀𝐍𝐃 @LovelySsupport
 
