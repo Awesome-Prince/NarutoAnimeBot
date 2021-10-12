@@ -70,7 +70,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="༒ 𝙰𝙳𝙳 ₱Ø₭Ɇ ⱤØ฿Ø₮ 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ༒",url="t.me/NarutoTheAnimeBot?startgroup=true"
+            text="༒ 𝙰𝙳𝙳 POKE ROBOT 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ༒",url="t.me/NarutoTheAnimeBot?startgroup=true"
         ),
     ],
     [
